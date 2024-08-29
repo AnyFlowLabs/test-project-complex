@@ -5,12 +5,12 @@
   },
   "scripts": {
     "compile": "hardhat compile",
-    "deploy": "hardhat run ./scripts/deploy.ts",
+    "deploy": "hardhat ignition deploy ./ignition/modules/AnyflowParentHelloWorldModule.ts",
     "hello": "hardhat run ./scripts/hello.ts"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-ignition": "^0.15.1",
-    "@nomicfoundation/hardhat-ignition-viem": "^0.15.1",
+    "@nomicfoundation/hardhat-ignition-viem": "^0.15.5",
     "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
     "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
     "@nomicfoundation/hardhat-verify": "^2.0.6",
