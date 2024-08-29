@@ -5,7 +5,8 @@
   },
   "scripts": {
     "compile": "hardhat compile",
-    "deploy": "hardhat ignition deploy ./ignition/modules/AnyflowParentHelloWorldModule.ts",
+    "deploy": "hardhat run ./scripts/deploy.ts",
+    "deploy-ignition": "hardhat ignition deploy ./ignition/modules/AnyflowParentHelloWorldModule.ts",
     "hello": "hardhat run ./scripts/hello.ts"
   },
   "devDependencies": {
