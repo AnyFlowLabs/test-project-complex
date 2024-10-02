@@ -7,7 +7,7 @@
 
 This project is used to test the [AnyFlow](https://anyflow.pro) platform.
 
-> ⚠️ You should not use this as a template. If you want project templates please check [our template docs](https://docs.anyflow.pro/templates).
+> ⚠️ You should not use this as a template. If you want project templates please check [our template docs](https://docs.anyflow.pro/docs/templates).
 
 # License
 
