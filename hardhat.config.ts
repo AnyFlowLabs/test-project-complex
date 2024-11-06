@@ -4,6 +4,7 @@ import "@nomicfoundation/hardhat-ignition-viem";
 
 const config: HardhatUserConfig = {
   solidity: "0.8.24",
+  defaultNetwork: "local",
 };
 
 export default config;
